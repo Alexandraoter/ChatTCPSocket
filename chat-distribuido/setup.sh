@@ -133,44 +133,7 @@ echo ""
 cat << 'EOF'
 ╔════════════════════════════════════════════════════════════╗
 ║         SISTEMA DE CHAT DISTRIBUIDO - LISTO               ║
-╚════════════════════════════════════════════════════════════╝
-
-📋 INSTRUCCIONES DE USO:
-
-1. INICIAR SERVIDORES (opción recomendada):
-   ./start_all_servers.sh
-
-   O manualmente en terminales separadas:
-   ./start_server1.sh
-   ./start_server2.sh
-   ./start_server3.sh
-
-2. INICIAR CLIENTES (en nuevas terminales):
-   ./start_client.sh
-
-3. COMANDOS DEL CLIENTE:
-   /servidores - Ver lista de servidores
-   /ayuda      - Ver comandos disponibles
-   /salir      - Salir del chat
-
-4. PRUEBAS DE TOLERANCIA A FALLOS:
-   - Detén un servidor con Ctrl+C
-   - El cliente se reconectará automáticamente
-   - Los mensajes se sincronizan entre servidores
-
-5. DETENER TODO:
-   ./stop_all.sh
-
-📁 ESTRUCTURA:
-   bin/         - Archivos compilados
-   logs/        - Logs de los servidores
-   *.sh         - Scripts de ejecución
-
-🔧 PERSONALIZACIÓN:
-   Edita los scripts start_server*.sh para cambiar puertos
-
-💡 NOTA: Espera 5 segundos después de iniciar los servidores
-   antes de conectar clientes para que se sincronicen.
+╚════════════════════════════════════════════════════════════
 
 EOF
 
