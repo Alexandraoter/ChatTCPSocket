@@ -1,2 +1,1 @@
-[Server3] Servidor iniciado en puerto 5002
-[Server3] Jhon conectado
+Error iniciando servidor: La dirección ya se está usando (Bind failed)

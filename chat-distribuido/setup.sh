@@ -139,4 +139,4 @@ EOF
 
 echo -e "${GREEN}✓ Configuración completada${NC}"
 echo ""
-echo -e "${YELLOW}Para comenzar, ejecuta: ./start_all_servers.sh${NC}"
+
